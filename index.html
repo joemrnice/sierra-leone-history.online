@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sierra Leone Historical Knowledge Center & Digital Archive</title>
+  <meta name="description" content="Comprehensive research-oriented digital archive, historical data portal, timeline, and source library for the history of Sierra Leone.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-flag-stripe">
+          <span class="flag-green"></span>
+          <span class="flag-white"></span>
+          <span class="flag-blue"></span>
+        </div>
+        <div>
+          <span>Sierra Leone History</span>
+          <span class="brand-title-sub">Digital Knowledge Portal</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="events.html" class="nav-link">Events</a></li>
+          <li><a href="people.html" class="nav-link">People</a></li>
+          <li><a href="places.html" class="nav-link">Places</a></li>
+          <li><a href="maps.html" class="nav-link">Maps</a></li>
+          <li><a href="data.html" class="nav-link">Data Center</a></li>
+          <li><a href="sources.html" class="nav-link">Sources</a></li>
+          <li><a href="research.html" class="nav-link">Research Hub</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-controls">
+        <button id="theme-toggle-btn" class="btn-icon" aria-label="Toggle dark mode">🌙</button>
+        <button id="mobile-nav-toggle" class="btn-icon mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>● Research Repository</span>
+        <span>Verified Archival Evidence</span>
+      </div>
+      <h1 class="hero-title">Discover the History of Sierra Leone</h1>
+      <p class="hero-subtitle">An interactive digital historical knowledge portal, data archive, and evidence-aware resource covering ancient settlements, indigenous chiefdoms, the slave trade, Freetown's founding, colonialism, independence, and contemporary developments.</p>
+
+      <div class="search-container">
+        <form id="search-form" action="events.html" method="GET">
+          <div class="search-input-wrapper">
+            <input type="text" id="search-input" class="search-input" placeholder="Search historical figures, events, places, treaties (e.g. Bai Bureh, Hut Tax, Bunce Island)..." aria-label="Search historical record">
+            <button type="submit" class="search-btn">Search Archive</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-content" class="main-content">
+    <div id="search-results-container"></div>
+
+    <section style="margin-bottom: 3.5rem;">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Historical Spotlight & On This Day</h2>
+          <span class="section-subtitle">Verified archival records and rotating biographical profiles</span>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div id="on-this-day-card" class="card"></div>
+        <div id="featured-spotlight-card" class="card"></div>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 3.5rem;">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Explore Major Historical Eras</h2>
+          <span class="section-subtitle">Chronological progression of Sierra Leonean history</span>
+        </div>
+        <a href="timeline.html">Full Interactive Timeline →</a>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-primary">c. 2500 BCE – 1460 CE</span></div>
+          <h3 class="card-title">Prehistory & Precolonial Eras</h3>
+          <p class="card-body">Microlithic archaeological finds, iron metallurgy, and traditional governance systems of the Limba, Temne, Mende, Sherbro, Kissi, and Loko societies.</p>
+          <div class="card-footer"><a href="timeline.html#prehistory">Explore Era →</a></div>
+        </div>
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-archival">1560 – 1807</span></div>
+          <h3 class="card-title">Atlantic Slave Trade & Bunce Island</h3>
+          <p class="card-body">European trading forts, Bunce Island slave castle, captivity, tidal rice-grower displacement, and connections to the Gullah Geechee diaspora.</p>
+          <div class="card-footer"><a href="timeline.html#slave-trade">Explore Era →</a></div>
+        </div>
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-official">1787 – 1896</span></div>
+          <h3 class="card-title">Freetown Founding & Crown Colony</h3>
+          <p class="card-body">Black Poor, Nova Scotians, Jamaican Maroons, Recaptive Liberated Africans, Krio culture, and the establishment of Fourah Bay College (1827).</p>
+          <div class="card-footer"><a href="timeline.html#freetown-founding">Explore Era →</a></div>
+        </div>
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-disputed">1896 – 1961</span></div>
+          <h3 class="card-title">Protectorate, 1898 War & Decolonization</h3>
+          <p class="card-body">Declaration of Protectorate, Bai Bureh's Hut Tax resistance, diamond discovery in Kono, SLPP formation, and 1961 independence.</p>
+          <div class="card-footer"><a href="timeline.html#protectorate-era">Explore Era →</a></div>
+        </div>
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-disputed">1991 – 2002</span></div>
+          <h3 class="card-title">Sierra Leone Civil War & TRC</h3>
+          <p class="card-body">Invasion of Bomaru, NPRC and AFRC military juntas, Lomé Agreement, TRC findings, Special Court trials, and DDR peacebuilding.</p>
+          <div class="card-footer"><a href="timeline.html#civil-war">Explore Era →</a></div>
+        </div>
+        <div class="card">
+          <div class="card-meta"><span class="badge badge-primary">2014 – Present</span></div>
+          <h3 class="card-title">Ebola Epidemic & Contemporary Era</h3>
+          <p class="card-body">Ebola public health response, Regent disaster, Free Quality School Education, and democratic governance up to present day.</p>
+          <div class="card-footer"><a href="timeline.html#contemporary">Explore Era →</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col-about">
+        <div class="footer-logo">Sierra Leone Historical Knowledge Center</div>
+        <p>A zero-framework, research-first digital knowledge platform dedicated to preserving, structuring, and citing the rich history of Sierra Leone for students, researchers, historians, and citizens worldwide.</p>
+      </div>
+      <div>
+        <h4 class="footer-title">Explore Archive</h4>
+        <ul class="footer-links">
+          <li><a href="timeline.html">Interactive Timeline</a></li>
+          <li><a href="events.html">Historical Events</a></li>
+          <li><a href="people.html">People Directory</a></li>
+          <li><a href="places.html">Historical Places</a></li>
+          <li><a href="maps.html">Historical Maps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Data & Research</h4>
+        <ul class="footer-links">
+          <li><a href="data.html">Data Center & Charts</a></li>
+          <li><a href="sources.html">Source Repository</a></li>
+          <li><a href="research.html">Research Hub & Quiz</a></li>
+          <li><a href="glossary.html">Historical Glossary</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Institutional</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Project</a></li>
+          <li><a href="contact.html">Contact & Corrections</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Sierra Leone Historical Knowledge Center. Sourced from primary public archives, UNESCO, TRC, and academic publications.</span>
+      <span>Static Zero-Framework Architecture</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

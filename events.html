@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical Events Explorer — Sierra Leone History Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-flag-stripe">
+          <span class="flag-green"></span>
+          <span class="flag-white"></span>
+          <span class="flag-blue"></span>
+        </div>
+        <div>
+          <span>Sierra Leone History</span>
+          <span class="brand-title-sub">Digital Knowledge Portal</span>
+        </div>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="events.html" class="nav-link active">Events</a></li>
+          <li><a href="people.html" class="nav-link">People</a></li>
+          <li><a href="places.html" class="nav-link">Places</a></li>
+          <li><a href="maps.html" class="nav-link">Maps</a></li>
+          <li><a href="data.html" class="nav-link">Data Center</a></li>
+          <li><a href="sources.html" class="nav-link">Sources</a></li>
+          <li><a href="research.html" class="nav-link">Research Hub</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button id="theme-toggle-btn" class="btn-icon">🌙</button>
+        <button id="mobile-nav-toggle" class="btn-icon mobile-nav-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="section-header">
+      <div>
+        <h1 class="section-title">Historical Events Explorer</h1>
+        <span class="section-subtitle">Search and filter verified historical events across all periods</span>
+      </div>
+    </div>
+
+    <div class="search-container" style="margin-bottom: 2rem;">
+      <form id="search-form" onsubmit="event.preventDefault();">
+        <div class="search-input-wrapper">
+          <input type="text" id="search-input" class="search-input" placeholder="Search events by keyword, year, or location...">
+          <button type="submit" class="search-btn">Search</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="search-results-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <span>© 2025 Sierra Leone Historical Knowledge Center.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

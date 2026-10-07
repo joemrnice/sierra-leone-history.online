@@ -1,0 +1,79 @@
+[
+  {
+    "id": "src-fyfe-history",
+    "title": "A History of Sierra Leone",
+    "author": "Christopher Fyfe",
+    "type": "Academic Book / Historical Survey",
+    "year": "1962",
+    "publisher": "Oxford University Press",
+    "credibility": "ACADEMIC SOURCE",
+    "url": "https://archive.org/details/historyofsierral00fyfe",
+    "notes": "Magisterial historical narrative documenting Sierra Leone from coastal precolonial trade through colonial administration up to 1961."
+  },
+  {
+    "id": "src-trc-report",
+    "title": "Witness to Truth: Report of the Sierra Leone Truth and Reconciliation Commission",
+    "author": "Sierra Leone Truth and Reconciliation Commission",
+    "type": "Official Report / Primary Source Archive",
+    "year": "2004",
+    "publisher": "TRC Sierra Leone / Graphic Packaging",
+    "credibility": "OFFICIAL SOURCE",
+    "url": "https://www.usip.org/publications/2002/07/truth-commission-sierra-leone",
+    "notes": "Definitive multi-volume investigation into the causes, nature, atrocities, and governance failures of the Sierra Leone Civil War (1991–2002)."
+  },
+  {
+    "id": "src-opala-bunce",
+    "title": "Bunce Island: A British Slave Castle in Sierra Leone",
+    "author": "Joseph Opala",
+    "type": "Research Monograph / Heritage Study",
+    "year": "2007",
+    "publisher": "James Madison University / Sierra Leone Heritage",
+    "credibility": "ACADEMIC SOURCE",
+    "url": "http://www.sierraleoneheritage.org/site/bunce-island",
+    "notes": "Detailed historical and archaeological study of Bunce Island slave castle and its rice-trade connection to South Carolina and Georgia."
+  },
+  {
+    "id": "src-walker-black-loyalists",
+    "title": "The Black Loyalists: The Search for a Promised Land in Nova Scotia and Sierra Leone 1783-1870",
+    "author": "James W. St. G. Walker",
+    "type": "Academic Monograph",
+    "year": "1976",
+    "publisher": "Longman & Dalhousie University Press",
+    "credibility": "ACADEMIC SOURCE",
+    "url": "https://www.utppublishing.com/The-Black-Loyalists",
+    "notes": "Definitive study on the Black Loyalists from the American Revolution who migrated from Nova Scotia to found Freetown in 1792."
+  },
+  {
+    "id": "src-denzer-bai-bureh",
+    "title": "Sierra Leone's Greatest Hero: Bai Bureh and the 1898 Hut Tax War",
+    "author": "LaRay Denzer",
+    "type": "Journal Article",
+    "year": "1971",
+    "publisher": "Journal of the Historical Society of Sierra Leone",
+    "credibility": "ACADEMIC SOURCE",
+    "url": "https://www.jstor.org/stable/218321",
+    "notes": "Analytical study of Chief Bai Bureh's military tactics, political strategy, and anti-tax guerrilla resistance against British colonial expansion."
+  },
+  {
+    "id": "src-paracka-athens",
+    "title": "The Athens of West Africa: A History of International Education at Fourah Bay College, 1827-1950",
+    "author": "Daniel J. Paracka Jr.",
+    "type": "Academic Book",
+    "year": "2003",
+    "publisher": "Routledge",
+    "credibility": "ACADEMIC SOURCE",
+    "url": "https://www.routledge.com/9780415947954",
+    "notes": "Explores the institutional and pan-African history of Fourah Bay College as West Africa's pioneer university."
+  },
+  {
+    "id": "src-who-ebola-report",
+    "title": "Ebola Virus Disease in West Africa - Sierra Leone Situation Report",
+    "author": "World Health Organization (WHO)",
+    "type": "Official International Report",
+    "year": "2016",
+    "publisher": "World Health Organization",
+    "credibility": "OFFICIAL SOURCE",
+    "url": "https://www.who.int/emergencies/situations/ebola-outbreak-2014-2016-west-africa",
+    "notes": "Comprehensive epidemiological tracking and public health data on the 2014–2016 Ebola virus epidemic in Sierra Leone."
+  }
+]

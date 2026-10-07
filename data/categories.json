@@ -1,0 +1,95 @@
+{
+  "periods": [
+    {
+      "id": "prehistory",
+      "name": "Prehistory & Early Human Settlement",
+      "dateRange": "c. 2500 BCE – 800 CE",
+      "description": "Archaeological evidence of microlithic stone tools, early agriculture, metallurgy, and early West African rainforest settlements."
+    },
+    {
+      "id": "precolonial",
+      "name": "Precolonial Kingdoms & Indigenous Societies",
+      "dateRange": "800 CE – 1460 CE",
+      "description": "Formation of indigenous political systems, chiefdoms, trade networks, and ethnic community development including Limba, Temne, Mende, Sherbro, Kissi, Loko, and others."
+    },
+    {
+      "id": "european-contact",
+      "name": "European Coastal Contact",
+      "dateRange": "1460 – 1560",
+      "description": "Portuguese exploration led by Pedro de Sintra, naming of Serra Leoa, early maritime trade, and ivory carving traditions."
+    },
+    {
+      "id": "slave-trade",
+      "name": "Atlantic Slave Trade & Bunce Island",
+      "dateRange": "1560 – 1807",
+      "description": "Expansion of transatlantic slave trading networks, European fortification (Bunce Island), slave raids, rice-cultivating captives sent to North America, and indigenous resistance."
+    },
+    {
+      "id": "freetown-founding",
+      "name": "Abolition & Founding of Freetown",
+      "dateRange": "1787 – 1808",
+      "description": "Arrival of Black Poor, Nova Scotian Settlers, Jamaican Maroons, Sierra Leone Company administration, and establishment of Gran-ville Town and Freetown."
+    },
+    {
+      "id": "crown-colony",
+      "name": "Crown Colony & Liberated Africans",
+      "dateRange": "1808 – 1896",
+      "description": "Establishment of British Crown Colony, Vice-Admiralty Court, settlement of Liberated Africans (Recaptives), creation of Krio culture, founding of Fourah Bay College (1827)."
+    },
+    {
+      "id": "protectorate-era",
+      "name": "Protectorate Era & Colonial Expansion",
+      "dateRange": "1896 – 1950",
+      "description": "Declaration of the British Protectorate over the interior, indirect rule, 1898 Hut Tax War, railway construction, mining discovery, and early labor movements."
+    },
+    {
+      "id": "decolonization",
+      "name": "Nationalist Movement & Independence",
+      "dateRange": "1950 – 1961",
+      "description": "Constitutional reforms, political party formation (SLPP, UPP), negotiations led by Sir Milton Margai, and full independence on 27 April 1961."
+    },
+    {
+      "id": "post-independence",
+      "name": "First Republic & Political Transitions",
+      "dateRange": "1961 – 1991",
+      "description": "Early parliamentary democracy under Milton and Albert Margai, military coups of 1967–1968, Siaka Stevens era, APC one-party state, and Joseph Saidu Momoh's administration."
+    },
+    {
+      "id": "civil-war",
+      "name": "Sierra Leone Civil War",
+      "dateRange": "1991 – 2002",
+      "description": "Invasion by RUF, NPRC military regime, 1996 democratic transition to Ahmad Tejan Kabbah, AFRC coup, CDF/Kamajors mobilizations, ECOMOG and British intervention, and Lomé Peace Agreement."
+    },
+    {
+      "id": "peacebuilding",
+      "name": "Peacebuilding, TRC & Special Court",
+      "dateRange": "2002 – 2014",
+      "description": "Disarmament, Demobilization, Reintegration (DDR), Truth and Reconciliation Commission findings, Special Court for Sierra Leone trials, post-war institutional rebuilding, Ernest Bai Koroma presidency."
+    },
+    {
+      "id": "ebola-crisis",
+      "name": "Ebola Epidemic & Recovery",
+      "dateRange": "2014 – 2016",
+      "description": "Outbreak of Ebola Virus Disease, public health emergency, community healthcare initiatives, economic fallout, and international health collaboration."
+    },
+    {
+      "id": "contemporary",
+      "name": "Contemporary Sierra Leone",
+      "dateRange": "2016 – Present",
+      "description": "Democratic elections (2018, 2023 under President Julius Maada Bio), Free Quality School Education program, constitutional reform debates, economic development, and digital transformation."
+    }
+  ],
+  "categories": [
+    { "id": "politics", "name": "Politics & Governance" },
+    { "id": "colonialism", "name": "Colonialism & Resistance" },
+    { "id": "slave-trade", "name": "Slavery & Abolition" },
+    { "id": "culture", "name": "Culture & Society" },
+    { "id": "economy", "name": "Economy & Minerals" },
+    { "id": "conflict", "name": "Conflict & Security" },
+    { "id": "peacebuilding", "name": "Peacebuilding & Justice" },
+    { "id": "education", "name": "Education & Religion" },
+    { "id": "health", "name": "Public Health & Disasters" },
+    { "id": "women", "name": "Women in History" },
+    { "id": "geography", "name": "Geography & Heritage" }
+  ]
+}
