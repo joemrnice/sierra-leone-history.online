@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Research Inquiries — Sierra Leone History Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-flag-stripe">
+          <span class="flag-green"></span>
+          <span class="flag-white"></span>
+          <span class="flag-blue"></span>
+        </div>
+        <div>
+          <span>Sierra Leone History</span>
+          <span class="brand-title-sub">Digital Knowledge Portal</span>
+        </div>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="timeline.html" class="nav-link">Timeline</a></li>
+          <li><a href="events.html" class="nav-link">Events</a></li>
+          <li><a href="people.html" class="nav-link">People</a></li>
+          <li><a href="places.html" class="nav-link">Places</a></li>
+          <li><a href="maps.html" class="nav-link">Maps</a></li>
+          <li><a href="data.html" class="nav-link">Data Center</a></li>
+          <li><a href="sources.html" class="nav-link">Sources</a></li>
+          <li><a href="research.html" class="nav-link">Research Hub</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button id="theme-toggle-btn" class="btn-icon">🌙</button>
+        <button id="mobile-nav-toggle" class="btn-icon mobile-nav-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="section-header">
+      <div>
+        <h1 class="section-title">Contact & Correction Inquiries</h1>
+        <span class="section-subtitle">Submit source citations, historical corrections, or research inquiries</span>
+      </div>
+    </div>
+
+    <div class="card" style="max-width: 720px; margin: 0 auto;">
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" style="display: flex; flex-direction: column; gap: 1.25rem;">
+        <div>
+          <label for="name" style="display: block; font-weight: 600; margin-bottom: 0.25rem;">Your Name</label>
+          <input type="text" id="name" name="name" required class="search-input" style="border: 1px solid var(--border-color); width: 100%; border-radius: var(--radius-md);">
+        </div>
+        <div>
+          <label for="email" style="display: block; font-weight: 600; margin-bottom: 0.25rem;">Email Address</label>
+          <input type="email" id="email" name="email" required class="search-input" style="border: 1px solid var(--border-color); width: 100%; border-radius: var(--radius-md);">
+        </div>
+        <div>
+          <label for="subject" style="display: block; font-weight: 600; margin-bottom: 0.25rem;">Inquiry Type</label>
+          <select id="subject" name="subject" class="search-input" style="border: 1px solid var(--border-color); width: 100%; border-radius: var(--radius-md);">
+            <option value="correction">Suggest Historical Correction</option>
+            <option value="source">Provide Primary Source Citation</option>
+            <option value="general">General Research Inquiry</option>
+          </select>
+        </div>
+        <div>
+          <label for="message" style="display: block; font-weight: 600; margin-bottom: 0.25rem;">Message & Source Links</label>
+          <textarea id="message" name="message" rows="5" required class="search-input" style="border: 1px solid var(--border-color); width: 100%; border-radius: var(--radius-md); font-family: var(--font-sans);"></textarea>
+        </div>
+        <button type="submit" class="search-btn">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <span>© 2025 Sierra Leone Historical Knowledge Center. Form submissions are processed via Formspree.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

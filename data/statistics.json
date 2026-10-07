@@ -1,0 +1,44 @@
+{
+  "population": {
+    "title": "Historical Population Growth of Sierra Leone (1901 – 2021)",
+    "source": "Sierra Leone Census Records / Statistics Sierra Leone / UN Population Division",
+    "unit": "Persons",
+    "data": [
+      { "year": 1901, "value": 1027000, "note": "Colonial Census Estimate (Colony + Protectorate)" },
+      { "year": 1931, "value": 1768000, "note": "Colonial Census" },
+      { "year": 1963, "value": 2180355, "note": "First Post-Independence National Census" },
+      { "year": 1974, "value": 2735159, "note": "National Population Census" },
+      { "year": 1985, "value": 3515812, "note": "National Population Census" },
+      { "year": 2004, "value": 4976871, "note": "Post-War National Census" },
+      { "year": 2015, "value": 7092113, "note": "National Population and Housing Census" },
+      { "year": 2021, "value": 8492275, "note": "Mid-Term Population Census (Stats SL)" }
+    ]
+  },
+  "mineralExports": {
+    "title": "Diamond Production Trends (Carats, 1950 – 2020)",
+    "source": "Bank of Sierra Leone / Ministry of Mines and Mineral Resources / Kimberley Process Statistics",
+    "unit": "Carats",
+    "data": [
+      { "year": 1950, "value": 638000, "note": "SLST Production Era" },
+      { "year": 1960, "value": 2054000, "note": "Peak Official Mining Output" },
+      { "year": 1970, "value": 1948000, "note": "NDMC Era" },
+      { "year": 1980, "value": 595000, "note": "Rising Smuggling & Declining State Reserve" },
+      { "year": 1995, "value": 213000, "note": "Civil War Disruption" },
+      { "year": 2005, "value": 668000, "note": "Post-War Kimberley Process Formalization" },
+      { "year": 2015, "value": 500000, "note": "Ebola Epidemic Impact" },
+      { "year": 2020, "value": 583000, "note": "Modern Official KP Export Records" }
+    ]
+  },
+  "ebolaEpidemic": {
+    "title": "Cumulative Ebola Cases & Fatalities (2014 – 2016)",
+    "source": "World Health Organization (WHO) & Ministry of Health and Sanitation",
+    "unit": "Persons",
+    "data": [
+      { "category": "Confirmed Cases", "value": 8704, "note": "Laboratory Confirmed" },
+      { "category": "Probable/Suspected Cases", "value": 5420, "note": "Clinical Suspects" },
+      { "category": "Total Recorded Cases", "value": 14124, "note": "Total Outbreak Burden" },
+      { "category": "Total Fatalities", "value": 3956, "note": "Documented Deaths" },
+      { "category": "Healthcare Worker Deaths", "value": 221, "note": "Frontline Medical Personnel Lost" }
+    ]
+  }
+}

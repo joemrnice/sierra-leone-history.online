@@ -1,0 +1,62 @@
+[
+  {
+    "id": "place-freetown",
+    "name": "Freetown",
+    "district": "Western Area Urban",
+    "province": "Western Area",
+    "coordinates": { "lat": 8.484, "lng": -13.2299 },
+    "historicalSignificance": "Capital city founded in 1792 as a haven for freed slaves and center of British West Africa.",
+    "description": "Situated on the mountainous Freetown Peninsula with one of the world's largest natural harbors, Freetown was established by Black Loyalists in 1792. It became the chief sanctuary for over 50,000 Liberated Africans (Recaptives) rescued from slave ships between 1808 and 1863, leading to the formation of Krio society, architecture, and language. Freetown earned the moniker 'Athens of West Africa' through Fourah Bay College.",
+    "keySites": ["Cotton Tree", "Fourah Bay College Old Building", "St. George's Cathedral", "Maroon Church", "King's Yard Gate"],
+    "relatedEvents": ["event-1787-granville-town", "event-1792-nova-scotians", "event-1800-maroons", "event-1808-crown-colony", "event-1827-fourah-bay"],
+    "sources": ["src-fyfe-history", "src-porter-creoledom"]
+  },
+  {
+    "id": "place-bunce-island",
+    "name": "Bunce Island",
+    "district": "Port Loko District",
+    "province": "North Western Province",
+    "coordinates": { "lat": 8.5681, "lng": -13.0401 },
+    "historicalSignificance": "Major 17th-18th century British slave castle in the Sierra Leone River.",
+    "description": "Located 20 miles upriver from Freetown, Bunce Island was fortified in 1670 and operated by British merchant companies until abolition in 1807. Tens of thousands of captive West Africans were held in its stone slave yards. Captives from Sierra Leone were highly sought after by North American plantation owners in South Carolina and Georgia for their expert skill in tidal rice cultivation, establishing a direct historical link with the Gullah Geechee people of the United States.",
+    "keySites": ["Bastei Fortress Ruin", "Slave Prison Yard", "Manager's House", "Cannon Battery"],
+    "relatedEvents": ["event-1670-bunce-island"],
+    "sources": ["src-opala-bunce", "src-fyfe-history"]
+  },
+  {
+    "id": "place-bo",
+    "name": "Bo",
+    "district": "Bo District",
+    "province": "Southern Province",
+    "coordinates": { "lat": 7.9647, "lng": -11.7383 },
+    "historicalSignificance": "Administrative center of the Southern Province and educational hub.",
+    "description": "Bo expanded rapidly after the opening of the Sierra Leone Government Railway in 1903. In 1906, the British colonial administration established Bo School for the sons and nominees of paramount chiefs, making Bo a primary educational center for the Protectorate interior. It served as the political cradle for the Sierra Leone People's Party (SLPP) and remains the second largest urban city in Sierra Leone.",
+    "keySites": ["Bo School", "Railway Station Heritage Site", "Bo Clock Tower"],
+    "relatedEvents": ["event-1951-slpp-formation"],
+    "sources": ["src-cartwright-politics", "src-fyfe-history"]
+  },
+  {
+    "id": "place-koidu",
+    "name": "Koidu-Sefadu",
+    "district": "Kono District",
+    "province": "Eastern Province",
+    "coordinates": { "lat": 8.6439, "lng": -10.9714 },
+    "historicalSignificance": "Capital of diamond-rich Kono District and center of mineral history.",
+    "description": "Koidu became the center of Sierra Leone's mining economy following the 1930 discovery of diamonds in the Gbonkor stream. It witnessed decades of industrial mining by SLST/NDMC and extensive illicit artisanal mining. During the civil war (1991–2002), Koidu was heavily fought over due to its diamond reserves, which financed armed operations.",
+    "keySites": ["Koidu Diamond Kimberlite Mine", "Gbonkor Stream Discovery Site"],
+    "relatedEvents": ["event-1930-diamonds-kono", "event-1991-civil-war-start"],
+    "sources": ["src-hirsch-diamonds", "src-van-der-laan"]
+  },
+  {
+    "id": "place-regent",
+    "name": "Regent",
+    "district": "Western Area Rural",
+    "province": "Western Area",
+    "coordinates": { "lat": 8.4312, "lng": -13.2089 },
+    "historicalSignificance": "Historic Liberated African settlement in the Peninsula mountains and site of 2017 landslide.",
+    "description": "Founded in 1812 as Hogbrook, Regent was renamed in honor of the Prince Regent (later King George IV). It was developed by Church Missionary Society missionary Rev. William A.B. Johnson into a thriving mountain village for Liberated Africans. In August 2017, Regent was the site of a tragic landslide at Sugar Loaf Mountain.",
+    "keySites": ["St. Charles Church (1816)", "Sugar Loaf Mountain Memorial"],
+    "relatedEvents": ["event-1808-crown-colony", "event-2017-regent-landslide"],
+    "sources": ["src-fyfe-history", "src-worldbank-disaster"]
+  }
+]

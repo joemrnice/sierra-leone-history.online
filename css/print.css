@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Print Stylesheet - Sierra Leone Historical Knowledge Center
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  /* Hide interactive / non-printable elements */
+  .site-header,
+  .site-footer,
+  .hero-section,
+  .search-container,
+  .btn-icon,
+  .search-btn,
+  .mobile-nav-toggle,
+  .modal-overlay,
+  .filter-bar,
+  .skip-link {
+    display: none !important;
+  }
+
+  .main-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .card, .timeline-content {
+    border: 1px solid #999999 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+    padding: 1rem !important;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #555555;
+  }
+
+  .print-header {
+    display: block !important;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .print-header h1 {
+    font-family: Georgia, serif;
+    font-size: 18pt;
+  }
+
+  .print-header p {
+    font-size: 9pt;
+    color: #444;
+  }
+}
